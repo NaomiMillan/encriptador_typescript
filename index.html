@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encriptador César</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="imagen.png" alt="Banner" id="banner">
+  </header>
+
+  <main class="container">
+    <h1>Encriptador César</h1>
+
+    <textarea id="inputText" placeholder="Escribe tu texto aquí..."></textarea>
+
+    <div class="buttons">
+      <button id="btnUpper">Mayúsculas</button>
+      <button id="btnLower">Minúsculas</button>
+      <button id="btnInvert">Invertir</button>
+      <button id="btnEncrypt">Encriptar</button>
+      <button id="btnDecrypt">Desencriptar</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Resultado..." readonly></textarea>
+
+    <div class="copy-section">
+      <button id="btnCopy">Copiar</button>
+      <p id="copyNotice">Texto copiado ✔</p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
